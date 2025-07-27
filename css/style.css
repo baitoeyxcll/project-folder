@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+body{
+    background-color: #FDF5E6;
+    text-align: center;
+}
+h1{
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: #FF8C00;
+}
+.text1 {
+    font-size: 25px;
+    font-family: "Noto Sans Thai", sans-serif;
+    background-color: #ffffff9e;
+    margin: 30px 120px 120px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+    text-align: left;
+    
+}
+
+.text2 {
+    font-size: 25px;
+    font-family: "Noto Sans Thai", sans-serif;
+    background-color: #F4A460;
+    color: #FDF5E6;
+    margin: 30px auto 50px ;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    width: 1000px;
+    text-align: left;
+}
+
+.gallery img{
+    width: 300px;
+    height: 380px;
+    object-fit: fill;
+    border-radius: 12px;
+
+}
+
+.text3{
+    font-size: 22px;
+    font-family: "Noto Sans Thai", sans-serif;
+    text-align: left;
+    line-height: 20px;
+    padding-left: 450px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 30px auto 50px ;
+    width: 90%;
+    max-width: 1000px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+}
+
+th, td{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: #d9ebff;
+    color: 000;
+}
+
+tbody tr:nth-child(even){
+    background-color: #f6faff;
+}
+
+.button1 {
+    font-family:"Noto Sans Thai", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background-color: #F4A460;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 0;
+}
+
+.button2{
+    font-family:"Noto Sans Thai", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background-color: #F4A460;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+.button3{
+    font-family:"Noto Sans Thai", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background-color: #F4A460;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    align-items: flex;
+}
+
+.button4{
+    font-family:"Noto Sans Thai", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background-color: #F4A460;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 500px;
+}
+
+
+
+.button5{
+    font-family:"Noto Sans Thai", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background-color: #F4A460;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    text-align: center;
+    margin-left: 50px;
+   
+    
+}
+
+.button6{
+    font-family:"Noto Sans Thai", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background-color: #F4A460;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    text-align: center;
+    margin-left: 50px;
+    
+}
