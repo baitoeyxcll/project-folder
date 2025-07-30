@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+/*style body*/
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+/*header/logo title*/
+.head{
+    padding: 60px;
+    text-align: center;
+    background: rgb(241, 202, 151);
+    color: white;
+}
+
+/* navigation bar */
+.navbaer{
+    display: flex;
+    background-color: rgb(102, 75, 37);
+}
+
+
+.navbaer a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.navbaer a:hover{
+    background-color: rgb(246, 241, 234);
+    color: black;
+}
+
+/*column container*/
+.row{
+    display: flex;
+    flex-wrap:wrap ;
+}
+
+/* create two unequal columns that sits next to each other*/
+/* Sidebar/left coium*/
+.side{
+    flex: 30%;
+    background-color: rgba(191, 252, 238, 0.691);
+    padding: 20px;
+}
+
+/*main colum*/
+.main{
+    flex: 70%;
+    background-color: rgb(226, 223, 252);
+    padding: 20px;
+}
+
+.fakeimg{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: #f8ebd5c3;
+}
+
+
+
+@media screen and (max-width:700px) {
+.row, .navbaer{
+    flex-direction: column;
+}
+}
